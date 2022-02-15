@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.image-menu {
+  height: 4.5rem;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.item-menu {
+  font-family: 'Sarala', sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.container {
+  margin-bottom: 3rem;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #fff2e7;
+}
+
+.content-caption {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ecd6c4;
+}
+
+.content-button {
+  background-color: #ecd6c4;
+  width: 11.25rem;
+  height: 3.75rem;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #2f2325;
+}
+
+.content-button:hover {
+  background-color: #eb8cdb;
+  width: 12rem;
+  height: 4rem;
+}
+
+.logo {
+  height: 430px;
+}
+
+.content-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.content-description-title {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff2e7;
+}
+
+.content-description-text {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font: 1.125rem;
+  color: #fff2e7;
+}
+
+.baseboard {
+  border-top: 00.4px solid #fff2e7;
+  padding: 2rem;
+}
+
+.baseboard-image {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
